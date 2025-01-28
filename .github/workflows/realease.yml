@@ -12,6 +12,7 @@ jobs:
     uses: ./.github/workflows/code-check.yml
   release:
     name: Release
+    needs: code-check
     runs-on: ubuntu-latest
     permissions:
       contents: write
