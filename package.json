@@ -62,9 +62,6 @@
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.0.4"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
     "class-variance-authority": "^0.7.1",
