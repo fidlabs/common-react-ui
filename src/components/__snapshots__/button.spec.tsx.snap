@@ -1,8 +1,240 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button component > renders correctly 1`] = `
+exports[`Button component > renders correctly for variant default and size default 1`] = `
 <div>
-  <button>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-dodger-blue text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant default and size icon 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-dodger-blue text-primary-foreground hover:bg-primary/90 h-10 w-10"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant default and size lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-dodger-blue text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant default and size sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-dodger-blue text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant destructive and size default 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 h-10 px-4 py-2"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant destructive and size icon 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 h-10 w-10"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant destructive and size lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 h-11 rounded-md px-8"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant destructive and size sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 h-9 rounded-md px-3"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant ghost and size default 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant ghost and size icon 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 hover:bg-accent hover:text-accent-foreground h-10 w-10"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant ghost and size lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant ghost and size sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant link and size default 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 !p-0 !h-auto overflow-hidden rounded-none relative button-link text-link h-10 px-4 py-2"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant link and size icon 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 !p-0 !h-auto overflow-hidden rounded-none relative button-link text-link h-10 w-10"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant link and size lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 !p-0 !h-auto overflow-hidden relative button-link text-link h-11 rounded-md px-8"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant link and size sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 !p-0 !h-auto overflow-hidden relative button-link text-link h-9 rounded-md px-3"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant outline and size default 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant outline and size icon 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant outline and size lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant outline and size sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant secondary and size default 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant secondary and size icon 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 w-10"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant secondary and size lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-11 rounded-md px-8"
+  >
+    Label
+  </button>
+</div>
+`;
+
+exports[`Button component > renders correctly for variant secondary and size sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 rounded-md px-3"
+  >
     Label
   </button>
 </div>
