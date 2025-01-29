@@ -83,12 +83,14 @@ export const Icon: Story = {
 
 export const WithIcon: Story = {
   args: {
+    // eslint-disable-next-line react/jsx-key
     children: [<MailOpen />, "Login with Email"],
   },
 };
 
 export const Loading: Story = {
   args: {
+    // eslint-disable-next-line react/jsx-key
     children: [<Loader2 className="animate-spin" />, "Please wait"],
     disabled: true,
   },
