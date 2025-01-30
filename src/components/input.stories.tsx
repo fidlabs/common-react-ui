@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 
 import { Button } from "./button";
 import { Input } from "./input";
+import { Label } from "./label";
 
 const meta = {
   title: "Input",
@@ -44,6 +45,17 @@ export const WithButton: Story = {
       <div className="flex w-full max-w-sm items-center space-x-2">
         <Input type="email" placeholder="Email" />
         <Button type="submit">Subscribe</Button>
+      </div>
+    );
+  },
+};
+
+export const WithLabel: Story = {
+  render() {
+    return (
+      <div className="grid w-full max-w-sm items-center gap-2">
+        <Label htmlFor="email">Email</Label>
+        <Input id="email" type="email" placeholder="Email" />
       </div>
     );
   },
