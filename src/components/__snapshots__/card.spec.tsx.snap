@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card component > renders correctly 1`] = `
+<div>
+  <div
+    class="rounded-lg border-none text-card-foreground shadow-f-card bg-white"
+  >
+    <div
+      class="p-6 w-full"
+    >
+      <h3
+        class="text-lg font-semibold leading-none tracking-tight text-primary"
+      >
+        Card Title
+      </h3>
+      <p
+        class="text-sm text-muted-foreground"
+      >
+        Card Description
+      </p>
+    </div>
+    <div
+      class="p-6 pt-0"
+    >
+      <p>
+        Text in the card content.
+      </p>
+    </div>
+    <div
+      class="flex items-center p-6 pt-0"
+    >
+      <button
+        class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-2 bg-dodger-blue text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
+      >
+        Footer Button
+      </button>
+    </div>
+  </div>
+</div>
+`;
