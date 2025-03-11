@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Skeleton component > renders correctly 1`] = `
+<div>
+  <div
+    class="animate-pulse rounded-md bg-gray-300"
+  />
+</div>
+`;
