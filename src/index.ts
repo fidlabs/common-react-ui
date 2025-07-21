@@ -5,4 +5,5 @@ export * from "@/components/input";
 export * from "@/components/label";
 export * from "@/components/skeleton";
 export * from "@/components/alert";
+export * from "@/components/select";
 export { cn } from "@/lib/utils";
