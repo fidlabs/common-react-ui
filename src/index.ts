@@ -6,4 +6,5 @@ export * from "@/components/label";
 export * from "@/components/skeleton";
 export * from "@/components/alert";
 export * from "@/components/select";
+export * from "@/components/scroll-area";
 export { cn } from "@/lib/utils";
