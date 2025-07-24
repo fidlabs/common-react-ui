@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Slider component > renders correctly 1`] = `
+<div>
+  <span
+    aria-disabled="false"
+    class="group relative flex w-full touch-none select-none items-center aria-disabled:cursor-not-allowed"
+    data-orientation="horizontal"
+    dir="ltr"
+    style="--radix-slider-thumb-transform: translateX(-50%);"
+  >
+    <span
+      class="relative h-2 w-full grow overflow-hidden rounded-full bg-gray-500/50"
+      data-orientation="horizontal"
+    >
+      <span
+        class="absolute h-full bg-dodger-blue group-aria-disabled:bg-gray-500"
+        data-orientation="horizontal"
+        style="left: 0%; right: 50%;"
+      />
+    </span>
+    <span
+      style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+    >
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="50"
+        class="block h-5 w-5 rounded-full border-2 border-dodger-blue bg-white ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-dodger-blue focus-visible:ring-offset-2 disabled:pointer-events-none group-aria-disabled:border-gray-500"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        role="slider"
+        style=""
+        tabindex="0"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Slider component > renders correctly while disabled 1`] = `
+<div>
+  <span
+    aria-disabled="false"
+    class="group relative flex w-full touch-none select-none items-center aria-disabled:cursor-not-allowed"
+    data-orientation="horizontal"
+    dir="ltr"
+    style="--radix-slider-thumb-transform: translateX(-50%);"
+  >
+    <span
+      class="relative h-2 w-full grow overflow-hidden rounded-full bg-gray-500/50"
+      data-orientation="horizontal"
+    >
+      <span
+        class="absolute h-full bg-dodger-blue group-aria-disabled:bg-gray-500"
+        data-orientation="horizontal"
+        style="left: 0%; right: 50%;"
+      />
+    </span>
+    <span
+      style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+    >
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="50"
+        class="block h-5 w-5 rounded-full border-2 border-dodger-blue bg-white ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-dodger-blue focus-visible:ring-offset-2 disabled:pointer-events-none group-aria-disabled:border-gray-500"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        role="slider"
+        style=""
+        tabindex="0"
+      />
+    </span>
+  </span>
+</div>
+`;
