@@ -7,6 +7,7 @@ exports[`Button component > renders correctly for variant default 1`] = `
     role="alert"
   >
     <svg
+      aria-hidden="true"
       class="lucide lucide-info"
       fill="none"
       height="24"
@@ -53,6 +54,7 @@ exports[`Button component > renders correctly for variant destructive 1`] = `
     role="alert"
   >
     <svg
+      aria-hidden="true"
       class="lucide lucide-info"
       fill="none"
       height="24"
@@ -99,6 +101,7 @@ exports[`Button component > renders correctly for variant error 1`] = `
     role="alert"
   >
     <svg
+      aria-hidden="true"
       class="lucide lucide-info"
       fill="none"
       height="24"
@@ -145,6 +148,7 @@ exports[`Button component > renders correctly for variant warning 1`] = `
     role="alert"
   >
     <svg
+      aria-hidden="true"
       class="lucide lucide-info"
       fill="none"
       height="24"
