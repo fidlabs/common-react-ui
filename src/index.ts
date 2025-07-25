@@ -1,3 +1,5 @@
+export { Alert, AlertDescription, AlertTitle } from "@/components/alert";
+export type { AlertProps } from "@/components/alert";
 export { Button } from "@/components/button";
 export {
   Card,
@@ -19,9 +21,7 @@ export {
 } from "@/components/form";
 export { Input } from "@/components/input";
 export { Label } from "@/components/label";
-export { Skeleton } from "@/components/skeleton";
-export { Alert, AlertDescription, AlertTitle } from "@/components/alert";
-export type { AlertProps } from "@/components/alert";
+export { ScrollArea, ScrollBar } from "@/components/scroll-area";
 export {
   Select,
   SelectContent,
@@ -34,5 +34,6 @@ export {
   SelectTrigger,
   SelectValue,
 } from "@/components/select";
-export { ScrollArea, ScrollBar } from "@/components/scroll-area";
+export { Skeleton } from "@/components/skeleton";
+export { Slider } from "@/components/slider";
 export { cn } from "@/lib/utils";
